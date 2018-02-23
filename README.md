@@ -7,6 +7,7 @@ The documentation is available at http://api.diool.com/
 Just install the package, add the config and it is ready to use!
 
 [![Build Status](https://travis-ci.org/fabricelepro/diool-php.svg?branch=master)](https://travis-ci.org/fabricelepro/diool-php)
+[![Coverage Status](https://coveralls.io/repos/github/fabricelepro/diool-php/badge.svg?branch=master)](https://coveralls.io/github/fabricelepro/diool-php?branch=master)
 
 
 Requirements
