@@ -1,7 +1,8 @@
 Diool API PHP
 =============
 
-PHP API Call  http://diool.com/
+PHP API call
+The documentation is available at http://api.diool.com/
 
 Just install the package, add the config and it is ready to use!
 
