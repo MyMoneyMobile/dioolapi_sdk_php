@@ -12,8 +12,7 @@ Just install the package, add the config and it is ready to use!
 Requirements
 ============
 
-* PHP >= 5.3.7
-* cURL Extension
+* PHP >= 7.1
 
 Installation
 ============
@@ -25,7 +24,7 @@ Usage
 
 You just have to instanciate the Request Object
 
-    ?php
+    <?php
 
     use Diool\Features\Request;
 
