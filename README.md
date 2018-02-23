@@ -19,7 +19,7 @@ Requirements
 Installation
 ============
 
-    composer require fabricelepro/diool-php
+    composer require dioollab/diool-php
 
 Usage
 =====
