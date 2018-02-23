@@ -1,0 +1,25 @@
+{
+    "name": "fabricelepro/diool-php",
+    "description": "Diool API for mobile payment.",
+    "keywords": ["mobile", "payment", "cameroun"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabrice Yopa",
+            "email": "fabricey@diool.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4",
+        "guzzlehttp/guzzle": "~6.3"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "^7"
+    },
+	"autoload": {
+        "psr-4": {
+            "Diool\\": "src/"
+        }
+    }
+}
