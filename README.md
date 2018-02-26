@@ -41,14 +41,14 @@ You just have to instanciate the Request Object
 
 It return an Balance Object
 
-### Get Send Airtime
+### Send Airtime
 ```php
  $api->airtime(NUMBER,AMOUNT);
 ```
 
 It return an Airtime Object
 
-### Get Send Payment Request
+### Send Payment Request
 
 ```php
  $api->sendPayment(NUMBER,AMOUNT);
