@@ -10,6 +10,7 @@ Just install the package, add the config and it is ready to use!
 [![Coverage Status](https://coveralls.io/repos/github/fabricelepro/diool-php/badge.svg?branch=master)](https://coveralls.io/github/fabricelepro/diool-php?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/dioollab/diool-php/v/stable)](https://packagist.org/packages/dioollab/diool-php)
 [![License](https://poser.pugx.org/dioollab/diool-php/license)](https://packagist.org/packages/dioollab/diool-php)
+
 Requirements
 ============
 
