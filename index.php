@@ -12,3 +12,4 @@ require 'vendor/autoload.php';
 
 $api = new Request('KEY');
 $response = $api->getBalance();
+var_dump($response);

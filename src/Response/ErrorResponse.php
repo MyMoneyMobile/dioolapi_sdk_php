@@ -28,5 +28,34 @@ class ErrorResponse{
         $this->success = $builder->success;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getCode()
+    {
+        return $this->code;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getMessage()
+    {
+        return $this->message;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSuccess()
+    {
+        return $this->success;
+    }
+
+    public function __toString()
+    {
+        return "Error code : {$this->getCode()}\n Message : {$this->getMessage()}\n Etat : {$this->getSuccess()}";
+    }
+
 
 }

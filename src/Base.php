@@ -12,7 +12,7 @@ use GuzzleHttp\Exception\RequestException;
 */
 class Base{
 
-    public const API_URL = 'core.diool.com/dioolapi/v1/';
+    public const API_URL = 'https://core.diool.com/dioolapi/v1/';
     public const BALANCE = 'balance';
     public const AIRTIME = 'airtime_credit';
     public const PAYMENT = 'payment';
@@ -31,6 +31,7 @@ class Base{
      * @param $request
      * @param array $post
      * @return array|mixed|\Psr\Http\Message\ResponseInterface
+     * @throws \GuzzleHttp\Exception\GuzzleException
      */
     protected function callApi($method, $request, $post = []){
         try{
